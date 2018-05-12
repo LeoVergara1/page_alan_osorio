@@ -17,7 +17,9 @@ exports.npm = {
   enabled: true,
   styles: {
     bootstrap: ['dist/css/bootstrap.min.css'],
-    "animate.css": ['animate.css']
+    "animate.css": ['animate.css'],
+    "ionicons": ['dist/css/ionicons.css'],
+    lightbox: ['lightbox.min.css']
       },
   globals: {jQuery: "jquery", 
   $: "jquery",
