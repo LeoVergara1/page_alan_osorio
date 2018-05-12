@@ -12,3 +12,17 @@ exports.files = {
 exports.plugins = {
   babel: {presets: ['latest']}
 };
+
+exports.npm = {
+  enabled: true,
+  styles: {
+    bootstrap: ['dist/css/bootstrap.min.css'],
+    "animate.css": ['animate.css']
+      },
+  globals: {jQuery: "jquery", 
+  $: "jquery",
+  bootstrap:'bootstrap',
+  popper:"popper.js",
+  'jquery-migrate': "jquery-migrate"
+  }
+};
