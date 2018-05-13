@@ -26,6 +26,6 @@ exports.npm = {
   bootstrap:'bootstrap',
   popper:"popper.js",
   'jquery-migrate': "jquery-migrate",
-  wowjs: "wowjs"
+  wowjs: "wowjs",
   }
 };
